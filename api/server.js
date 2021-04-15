@@ -9,7 +9,7 @@ server.use(express.json());
 server.use(postsRouter);
 
 server.get('/', (req, res) => {
-	res.json({
+	res.status(200).json({
 		message: "server up and running"
 	})
 });
