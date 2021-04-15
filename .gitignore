@@ -119,3 +119,6 @@ dist
 .vscode
 
 testing.db3
+
+#added personal config
+.env
